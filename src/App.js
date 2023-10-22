@@ -1,9 +1,11 @@
-import Navbar from "./components/Navbar";
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div>
-      <Navbar />
+    <div className="flex justify-center h-screen bg-hero-pattern bg-cover">
+      {/* <Navbar /> */}
+      <Hero />
     </div>
   );
 }
