@@ -10,14 +10,14 @@ const Navbar = () => {
   };
 
   const textStyleNavbar =
-    'p-4 hover:bg-slate-400 hover:text-white rounded-lg text-[20px] font-normal';
+    'p-4 hover:bg-slate-400 hover:text-white rounded-lg text-[20px] font-body';
 
   return (
-    <div className="flex justify-between items-center shadow-lg h-[64px] medium:h-[64px] xl:h-24 mx-auto px-[16px] medium:px-[96px] bg-blue w-full fixed bg-white mt-0 z-10">
+    <div className="flex justify-center items-center h-[64px] medium:h-[64px] xl:h-24 mx-auto px-[16px] medium:px-[96px] bg-blue w-full shadow-md shadow-slate-200 mt-0 z-10">
       <div className="flex items-center w-[120px] h-[40px] pt-1 medium:w-[164px] medium:h-[32px]">
         {/* <img src={logo} /> */}
       </div>
-      <ul className="hidden xl:flex">
+      <ul className="hidden xl:flex font-body">
         <li className="p-4 hover:bg-slate-400 rounded-lg hover:text-white">
           Signature Dishes
         </li>
